@@ -1,0 +1,291 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #02540ff0;
+    top: 0;
+    position: sticky;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+header {
+    display: inline;
+}
+nav img {
+    max-height: 20px;
+    vertical-align: middle;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+}
+#header-name {
+    font-weight: bold;
+    font-style: oblique;
+    margin-right: 500px;
+    color: white;
+}
+nav a {
+    color: yellow;
+    margin-right: 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav a:active {
+    color: white;
+}
+#scroll-up-button a {
+    text-decoration: none;
+    padding: 12px 15px 12px 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: #5c5a5a99;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+#scroll-up-button a:hover {
+    background-color: #1d1c1cbb;
+}
+.jumbotron {
+    background-image: url("image/jumbotron.png");
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.jumbotron a {
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: white; 
+}
+.jumbotron a:hover {
+    zoom: 1.05;
+    background-color: orangered;
+    font-weight: bolder;
+}
+.jumbotron a:active {
+    background-color: burlywood;
+}
+main {
+    margin-top: 20px;
+    padding: 30px;
+    overflow: auto;
+}
+main h2 {
+    text-align: center;
+    color: green;
+}
+.content {
+    float: left;
+    width: 75%;
+}
+#description, #technologies, #concept, #benefits, .jumbotron {
+    scroll-margin-top: 100px;
+}
+#description, .profile {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid green;
+    box-shadow: -8px -8px 0 0 rgb(0, 128, 0);
+    border-radius: 4px;
+}
+h2 + p {
+    text-indent: 3em;
+    text-align: justify;
+}
+h2 + p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+#technologies p, #concept p {
+    text-align: justify;
+}
+#technologies h3 {
+    color: green;
+    border-bottom: 4px solid green;
+    margin: 20px;
+    padding: 4px;
+}
+#technologies img {
+    float: left;
+    width: 25%;
+}
+#technologies p {
+    float: right;
+    width: 75%;
+}
+#technologies section {
+    margin: 20px 10px;
+    border-radius: 4px;
+    background: linear-gradient(to left, #02731577, white);
+    overflow: auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 6px 6px 2px 0 rgba(0, 0, 0, 0.25);
+}
+#technologies img, #technologies p {
+    padding: 0 20px 0px 10px;
+}
+#concept {
+    margin: 30px 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0.25);
+}
+#concept img {
+    max-width: 100%;
+}
+#benefits {
+    margin: 10px;
+    border: 4px solid green;
+    border-radius: 8px;
+}
+.flex-display-benefit {
+    display: flex;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+.flex-display-benefit section {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px 30px 30px 30px;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 8px;
+}
+.flex-display-benefit img {
+    max-height: 150px;
+}
+.flex-display-benefit p {
+    margin-bottom: 0;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+aside header {
+    text-align: center;
+}
+figure img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+#contacts img, #contacts a {
+    width: 15px;
+    height: auto;
+    text-decoration: none;
+}
+#contacts ul {
+    padding-left: 4px;
+}
+#contacts li {
+    list-style-type: none;
+}
+#contacts a:hover {
+    font-weight: bold;
+}
+#contacts a:active {
+    color: orange;
+}
+#others {
+    text-align: justify;
+}
+footer {
+    padding: 10px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 4px -4px 3px 1px rgba(0, 0, 0, 0.25);
+}
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1080px) {
+    main {
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .content {
+        width: 70%;
+        padding: 10px;
+    }
+    aside {
+        width: 30%;
+        padding: 10px;
+    }
+    #header-name {
+        margin-right: 300px;
+    }
+    .flex-display-benefit section {
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 866px) {
+    .content {
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 0;
+    }
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    nav img {
+        display: none;
+    }
+    #header-name {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        vertical-align: top;
+    }
+    nav li {
+        text-align: center;
+        margin-right: 0px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 667px) {
+    nav {
+        padding-left: 5px;
+    }
+    nav ul {
+        margin: 0 0 10px -40px;
+    }
+    #technologies section {
+        padding: 0;
+    }
+    #technologies img, #technologies p {
+        width: 100%;
+        float: none;
+        display: block;
+        padding: 0 20px 10px 20px;
+    }
+    .flex-display-benefit {
+        flex-wrap: wrap;
+    }
+}
