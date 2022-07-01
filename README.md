@@ -1,4 +1,6 @@
 # Adaptive-Mosque-Fan
+### Live Preview:
+https://dicoding-submission-web-basic.netlify.app/
 ### Screenshot:
 <p align="center">
   <img src="https://github.com/Vidi005/Adaptive-Mosque-Fan/blob/master/assets/images/Screenshot.jpeg" width="100%"> 
